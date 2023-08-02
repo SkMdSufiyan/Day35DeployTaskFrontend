@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+.component-divs{
+  padding: 20px;
+  border: 1px solid green;
+  text-align: center;
+  justify-content: center;
+}
+
+.Button-class{
+  margin: 20px;
+}
+
+.action-buttons{
+  font-size: smaller;
+  margin: 0px 5px;
+}
+
+.quote-form-div{
+  border: 1px solid green;
+  display: inline-block;
+  padding: 10px;
+  font-size: small;
+  text-align: center;
+}
+
+span{
+  color: red;
+  font-size: smaller;
+}
+
+tr, th, td{
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+
+
