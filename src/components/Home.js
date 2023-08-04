@@ -51,7 +51,8 @@ const Home = () => {
   return (
     <div className="quote-form-div">
       <p><b style={{color:"blue"}}>Welcome to the quotes application</b></p>
-      <p>Kindly open and close this link one or two times before using this page. Due to some Netlify deployment issue, it is not showing the data of quotes on opening it for the first time.</p>
+      <p>Kindly open and close this link one or two times before using this page. </p>
+      <p>Due to some Netlify deployment issue, it is not showing the data of quotes on opening it for the first time. </p>
     {requestSingleQuote? (
       // If the "View a quote" button is clicked: then renders the below card to the web page
       <Card style={{width: '18rem'}}>
