@@ -51,10 +51,7 @@ const Home = () => {
   return (
     <div className="quote-form-div">
       <p><b style={{color:"blue"}}>Welcome to the quotes application</b></p>
-      <span>Kindly open and close this link one or two times before using this site. </span>
-      <span>Due to some Netlify deployment issue, it is not showing the data of quotes on opening it for the first time. </span>
-      <span>Kindly do not refresh this site when you are on a page other than the home page. </span>
-      <span> Otherwise, this Netlify deployment will give a "page not found" error.  </span>
+      
       
     {requestSingleQuote? (
       // If the "View a quote" button is clicked: then renders the below card to the web page
