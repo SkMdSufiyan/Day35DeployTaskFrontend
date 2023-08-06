@@ -13,9 +13,7 @@ function App() {
     <p style={{color : "red", fontSize : "small", margin : "0px"}}>Kindly open and close this link one or two times before using this site. </p>
       <p style={{color : "red", fontSize : "small", margin : "0px"}}>Due to some Netlify deployment issue, it is not showing the data of quotes on opening it for the first time. </p>
 
-      <p style={{color : "red", fontSize : "small", margin : "0px"}}>Kindly do not refresh this site when you are on a page other than the home page. </p>
-      <p style={{color : "red", fontSize : "small", margin : "0px"}}> Otherwise, this Netlify deployment will give a "page not found" error.  </p>
-
+      
       <br />
     
       <BrowserRouter>
